@@ -29,8 +29,6 @@ def main():
             contatos.append(check_ticket(driver)[i][2].strip())
             tempos.append(check_ticket(driver)[i][5].strip())
 
-        # print(check_ticket(driver))
-
         send_notification(TOKEN, ID_CHAT,  view_message(id_tickets, contatos, tempos))
         
     finally:
