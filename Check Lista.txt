@@ -1,4 +1,8 @@
 [] Função para da play no som de aviso
 [] Função para check internet
 [] Função para horário de trabalho
-[] Configurar função main para ficar atualizando a notificação a cada 5min e em loop, já inte
+[] Configurar função main para ficar atualizando a notificação a cada 5min e em loop, já com todas as funções de verificações linkadas
+
+resolver bug de lista acumulativa de chamado
+
+IndexError: list index out of range
